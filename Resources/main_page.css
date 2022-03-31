@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #81B622;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #ECF87F;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer {
+    display: block;
+    background-color: #81B622;
+    text-align: center;
+    padding: 1%;
+
+}
+
+.copyright {
+    background-color: #DBE8D8;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.7em;
+}
+
+main p {
+    text-align: justify;
+}
+
+main > section {
+    margin-bottom: 1em;
+}
+
+footer > h2{ 
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: block;
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    main > h1{
+        margin-bottom: 3%;
+    }
+
+    .imgcenter {
+        display: flex;
+        justify-content: center;
+    }
+
+    aside > div > img {
+        width: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+        
+    }
+    
+
+    main {
+        font-size: 90%;
+        margin: 2%;
+
+    }
+
+    footer {
+        padding: 3%;
+        font-size: 80%;
+    }
+
+}
+
+.adress > a /*, span*/ {
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.adress p a {
+    margin: 1em 0;
+}
